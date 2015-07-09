@@ -51,7 +51,7 @@ code signing certificate for your applet and libraries.</p>
 <p>The applet requires the following parameters to function<br>
 </p>
 <table width="658" border="0" cellpadding="2" cellspacing="2"
-height="228">
+height="400">
 <small> </small><tbody>
 <small> </small><tr>
 <small> </small><td valign="top"><small>&lt;param
