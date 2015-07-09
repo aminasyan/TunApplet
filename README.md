@@ -1,19 +1,54 @@
-# TunApplet
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>TunApplet</title>
+<meta name="generator" content="Bluefish">
+<meta name="author" content="">
+<meta name="date" content="">
+<meta name="copyright" content="">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+</head>
+<body>
 <div class="markdown-body">
   <p>Welcome to the TunApplet wiki!</p>
 
 <p>I have created this applet in an effort to simplify ssh tunneling access &amp; provide user friendly experience. The applet will create a tunnel to your SSH gateway and establish a connection to either Remote Desktop or VNC screen. The name of the VNC or RDP server has to be resolvable by the SSH gateway. The applet will distinguish between VNC &amp; RDP protocols by the presence of ":" in the remote server name, for ex. "myserver:1"  would be a VNC screen and "myserver" would default to and RDP connection.</p>
 
 <p>Screenshots:
-<img src="https://github.com/aminasyan/TunApplet/wiki/pics/TunApplet.jpeg" alt="TunApplet.jpeg"></p>
+
+
+<img src="https://github.com/aminasyan/TunApplet/screenshots/TunApplet.jpeg" alt="TunApplet.jpeg"></p>
 
 <p>The applet uses the following libraries;</p>
 
-<p>jsch-0.1.52.jar (Java SSH library) <a href="http://www.jcraft.com/jsch/">http://www.jcraft.com/jsch/</a>
-java-getopt-1.0.13.jar             <a href="https://www.gnu.org/software/java-getopt/">https://www.gnu.org/software/java-getopt/</a>
-log4j-1.2.16.jar                   <a href="http://logging.apache.org/log4j/">http://logging.apache.org/log4j/</a>
-properJavaRDP.jar                  <a href="http://sourceforge.net/projects/properjavardp/">http://sourceforge.net/projects/properjavardp/</a>
-VncViewer.jar                      <a href="http://www.tightvnc.com/download.php">http://www.tightvnc.com/download.php</a></p>
+<table>
+<tr>
+<td>jsch-0.1.52.jar (Java SSH library)</td>
+<td><a href="http://www.jcraft.com/jsch/">http://www.jcraft.com/jsch/</a></td>
+</tr>
+<tr>
+<td>java-getopt-1.0.13.jar</td>
+<td><a href="https://www.gnu.org/software/java-getopt/">https://www.gnu.org/software/java-getopt/</a></td>
+</tr>
+<tr>
+<td>log4j-1.2.16.jar</td>
+<td><a href="http://logging.apache.org/log4j/">http://logging.apache.org/log4j/</a></td>
+</tr>
+<tr>
+<td>properJavaRDP.jar</td>
+<td><a href="http://sourceforge.net/projects/properjavardp/">http://sourceforge.net/projects/properjavardp/</a></td>
+</tr>
+<tr>
+<td>VncViewer.jar</td>
+<td><a href="http://www.tightvnc.com/download.php">http://www.tightvnc.com/download.php</a></td>
+</tr>
+</table>
 
 <p>NOTE: I had to recompile VncViewer.jar and put it in a package "org.vncviewer" per Oracle Java recommendation.</p>
 
@@ -32,3 +67,5 @@ VncViewer.jar                      <a href="http://www.tightvnc.com/download.php
 <p>For the Remote Desktop width/height parameter you can optionally use included JavaScript code to determine optimal full size window.</p>
 
 </div>
+</body>
+</html>
