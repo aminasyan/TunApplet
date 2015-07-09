@@ -17,8 +17,6 @@ to and RDP connection.</p>
 <p><img src="https://github.com/aminasyan/TunApplet/raw/master/screenshots/TunApplet.jpeg"
 alt="TunApplet.jpeg"><br>
 </p>
-<p><br>
-</p>
 <p>The applet uses the following libraries;</p>
 <table>
 <tbody>
@@ -106,11 +104,9 @@ value="768"/&gt;<br>
 </tr>
 </tbody>
 </table>
-<br>
 <p>For the Remote Desktop width/height parameter you can
 optionally use included JavaScript code to determine optimal
 full size window.<br>
-<br>
 </p>
 </div>
 </body>
