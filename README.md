@@ -50,59 +50,67 @@ purposes you can try Java 6 after which you can decide to buy a
 code signing certificate for your applet and libraries.</p>
 <p>The applet requires the following parameters to function<br>
 </p>
-<table width="740" border="0" cellpadding="2" cellspacing="2"
-height="280">
-<tbody>
-<tr>
-<td valign="top">&lt;param name="sshhost"
-value="gw.myserver.com"/&gt;<br>
-</td>
-<td valign="top">-&nbsp; The address of your SSH gateway.<br>
-</td>
-</tr>
-<tr>
-<td valign="top">&lt;param name="sshport" value="22"/&gt;<br>
-</td>
-<td valign="top">-&nbsp; The port your SSH server listens.<br>
-</td>
-</tr>
-<tr>
-<td valign="top">&lt;param name="sshtimeout"
-value="3000"/&gt;<br>
-</td>
-<td valign="top">-&nbsp; The SSH connection timeout value.<br>
-</td>
-</tr>
-<tr>
-<td valign="top">&lt;param name="Show Controls"
-value="No"/&gt;<br>
-</td>
-<td valign="top">-&nbsp; Show VNC Viewer controls.<br>
-</td>
-</tr>
-<tr>
-<td valign="top">&lt;param name="Open New Window"
-value="Yes"/&gt;<br>
-</td>
-<td valign="top">-&nbsp; Open VNC viewer in new window,
-always yes.<br>
-</td>
-</tr>
-<tr>
-<td valign="top">&lt;param name="clientwidth"
-value="1024"/&gt;<br>
-</td>
-<td valign="top">-&nbsp; The Remote Desktop width.<br>
-</td>
-</tr>
-<tr>
-<td valign="top">&lt;param name="clientheight"
-value="768"/&gt;<br>
-</td>
-<td valign="top">-&nbsp; The Remote Desktop height.<br>
-</td>
-</tr>
-</tbody>
+<table width="658" border="0" cellpadding="2" cellspacing="2"
+height="228">
+<small> </small><tbody>
+<small> </small><tr>
+<small> </small><td valign="top"><small>&lt;param
+name="sshhost" value="ssh.example.com"/&gt;</small><small><br>
+</small><small> </small></td>
+<small> </small><td valign="top"><small>-&nbsp; The address
+of your SSH gateway.</small><small><br>
+</small><small> </small></td>
+<small> </small></tr>
+<small> </small><tr>
+<small> </small><td valign="top"><small>&lt;param
+name="sshport" value="22"/&gt;</small><small><br>
+</small><small> </small></td>
+<small> </small><td valign="top"><small>-&nbsp; The port
+your SSH server listens.</small><small><br>
+</small><small> </small></td>
+<small> </small></tr>
+<small> </small><tr>
+<small> </small><td valign="top"><small>&lt;param
+name="sshtimeout" value="3000"/&gt;</small><small><br>
+</small><small> </small></td>
+<small> </small><td valign="top"><small>-&nbsp; The SSH
+connection timeout value.</small><small><br>
+</small><small> </small></td>
+<small> </small></tr>
+<small> </small><tr>
+<small> </small><td valign="top"><small>&lt;param
+name="Show Controls" value="No"/&gt;</small><small><br>
+</small><small> </small></td>
+<small> </small><td valign="top"><small>-&nbsp; Show VNC
+Viewer controls.</small><small><br>
+</small><small> </small></td>
+<small> </small></tr>
+<small> </small><tr>
+<small> </small><td valign="top"><small>&lt;param
+name="Open New Window" value="Yes"/&gt;</small><small><br>
+</small><small> </small></td>
+<small> </small><td valign="top"><small>-&nbsp; Open VNC
+viewer in new window.</small><small><br>
+</small><small> </small></td>
+<small> </small></tr>
+<small> </small><tr>
+<small> </small><td valign="top"><small>&lt;param
+name="clientwidth" value="1024"/&gt;</small><small><br>
+</small><small> </small></td>
+<small> </small><td valign="top"><small>-&nbsp; The Remote
+Desktop width.</small><small><br>
+</small><small> </small></td>
+<small> </small></tr>
+<small> </small><tr>
+<small> </small><td valign="top"><small>&lt;param
+name="clientheight" value="768"/&gt;</small><small><br>
+</small><small> </small></td>
+<small> </small><td valign="top"><small>-&nbsp; The Remote
+Desktop height.</small><small><br>
+</small><small> </small></td>
+<small> </small></tr>
+<small> </small>
+</tbody><small> </small>
 </table>
 <p>For the Remote Desktop width/height parameter you can
 optionally use included JavaScript code to determine optimal
