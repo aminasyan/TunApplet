@@ -1,3 +1,5 @@
+
+<!-- this JavaScript takes care of automatically determining RDP window size -->
 <script language="Javascript">
 clwidth = screen.width - 4;
 clheight = screen.height - 62;
