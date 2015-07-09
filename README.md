@@ -12,7 +12,7 @@ the VNC or RDP server has to be resolvable by the SSH gateway.
 The applet will distinguish between VNC &amp; RDP protocols by
 the presence of ":" in the remote server name, for ex.
 "myserver:1" would be a VNC screen and "myserver" would default
-to and RDP connection.</p>
+to an RDP connection.</p>
 <p>Screenshots:</p>
 <p><img src="https://github.com/aminasyan/TunApplet/blob/master/screenshots/TunAppletDesign.jpeg"
 alt="TunApplet.jpeg"><br></p>
