@@ -1,6 +1,6 @@
 <html>
 <head>
-<title><h1>TunApplet</h1></title>
+<title>TunApplet</title>
 </head>
 <body>
 <div class="markdown-body">
