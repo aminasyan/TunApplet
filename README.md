@@ -15,7 +15,6 @@
 </head>
 <body>
 <div class="markdown-body">
-  <p>Welcome to the TunApplet wiki!</p>
 
 <p>I have created this applet in an effort to simplify ssh tunneling access &amp; provide user friendly experience. The applet will create a tunnel to your SSH gateway and establish a connection to either Remote Desktop or VNC screen. The name of the VNC or RDP server has to be resolvable by the SSH gateway. The applet will distinguish between VNC &amp; RDP protocols by the presence of ":" in the remote server name, for ex. "myserver:1"  would be a VNC screen and "myserver" would default to and RDP connection.</p>
 
