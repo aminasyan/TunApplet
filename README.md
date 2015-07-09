@@ -50,12 +50,12 @@ purposes you can try Java 6 after which you can decide to buy a
 code signing certificate for your applet and libraries.</p>
 <p>The applet requires the following parameters to function<br>
 </p>
-<table width="900" border="0" cellpadding="2" cellspacing="2"
+<table width="875" border="0" cellpadding="2" cellspacing="2"
 height="280">
 <tbody>
 <tr>
 <td valign="top">&lt;param name="sshhost"
-value="gateway.myserver.com"/&gt;<br>
+value="gw.myserver.com"/&gt;<br>
 </td>
 <td valign="top">-&nbsp; The address of your SSH gateway.<br>
 </td>
