@@ -1,6 +1,6 @@
 <html>
 <head>
-<title># ## ### TunApplet</title>
+<title><h1>TunApplet</h1></title>
 </head>
 <body>
 <div class="markdown-body">
