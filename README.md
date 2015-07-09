@@ -14,7 +14,7 @@ the presence of ":" in the remote server name, for ex.
 "myserver:1" would be a VNC screen and "myserver" would default
 to and RDP connection.</p>
 <p>Screenshots:</p>
-<p><img src="https://github.com/aminasyan/TunApplet/raw/master/screenshots/TunApplet.jpeg"
+<p><img src="https://github.com/aminasyan/TunApplet/blob/master/screenshots/TunAppletDesign.jpeg"
 alt="TunApplet.jpeg"><br>
 </p>
 <p>The applet uses the following libraries;</p>
