@@ -6,3 +6,4 @@ clheight = screen.height - 62;
 apltsrc = 'https://webserver.example.com/applets/tunapplet/';
 document.write('<object type="application/x-java-applet" height="180" width="400" border="1"><param name="code" value="org.tunapplet.TunApplet" /><param name="archive" value="' + apltsrc +'TunApplet.jar, '+ apltsrc +'lib/jsch-0.1.52.jar, ' + apltsrc +'lib/VncViewer.jar, ' + apltsrc +'lib/properJavaRDP.jar, ' + apltsrc +'lib/java-getopt-1.0.13.jar, ' + apltsrc + 'lib/log4j-1.2.16.jar" /><param name="sshhost" value="ssh.example.com" /><param name="sshport" value="22" /><param name="sshtimeout" value="3000" /><param name="Show Controls" value="No" /><param name="Open New Window" value="Yes" /><param name="clientwidth" value="' + clwidth + '" /><param name="clientheight" value="' + clheight + '" /> Applet failed to run.  No Java plug-in was found.</object>');
 </script>
+<br>
