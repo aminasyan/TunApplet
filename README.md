@@ -21,7 +21,7 @@
 <p>Screenshots:</p>
 
 
-<p><img src="https://github.com/aminasyan/TunApplet/screenshots/TunApplet.jpeg" alt="TunApplet.jpeg"></p>
+<p><img src="https://github.com/aminasyan/TunApplet/raw/master/screenshots/TunApplet.jpeg" alt="TunApplet.jpeg"></p>
 
 
 <p>The applet uses the following libraries;</p>
