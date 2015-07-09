@@ -15,8 +15,8 @@ the presence of ":" in the remote server name, for ex.
 to and RDP connection.</p>
 <p>Screenshots:</p>
 <p><img src="https://github.com/aminasyan/TunApplet/blob/master/screenshots/TunAppletDesign.jpeg"
-alt="TunApplet.jpeg"><br>
-</p>
+alt="TunApplet.jpeg"><br></p>
+<p><a href="https://github.com/aminasyan/TunApplet/blob/master/screenshots/screenshots.md">More Screenshots</a></p>
 <p>The applet uses the following libraries;</p>
 <table>
 <tbody>
