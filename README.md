@@ -53,7 +53,7 @@ code signing certificate for your applet and libraries.</p>
 <p>The applet requires the following parameters to function<br>
 </p>
 <table width="900" border="0" cellpadding="2" cellspacing="2"
-height="431">
+height="280">
 <tbody>
 <tr>
 <td valign="top">&lt;param name="sshhost"
