@@ -112,7 +112,7 @@ Desktop height.</small><small><br>
 </tbody><small> </small>
 </table>
 <p>For the Remote Desktop width/height parameter you can
-optionally use included JavaScript code to determine optimal
+optionally use included JavaScript code <a href="https://github.com/aminasyan/TunApplet/blob/master/applet-launcher-js.txt">applet-launcher-js.txt</a> to determine optimal
 full size window.<br>
 </p>
 </div>
